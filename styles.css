@@ -21,8 +21,8 @@ h3{
     margin-left: 20px;;
 }
 body{
-    background: linear-gradient(to left, var(--barcelona-blue), var(--barcelona-red));
-    color: var(--white);
+    background-image: url('background-technology.jpg');
+    color: wheat;
 }
 nav
 {
