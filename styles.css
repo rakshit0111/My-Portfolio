@@ -1,0 +1,158 @@
+:root {
+    --barcelona-blue: #004d98; 
+    --barcelona-red: #a50044; 
+    --white: #ffffff; 
+    --black: #000000;
+  }
+img{
+    width: 700px;;
+    height: 500px;
+    margin-left: 20px;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    object-position: center;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h3{
+    margin-left: 20px;;
+}
+body{
+    background: linear-gradient(to left, var(--barcelona-blue), var(--barcelona-red));
+    color: var(--white);
+}
+nav
+{
+padding: 10px;
+margin-left: 200px;
+border-bottom:  2px solid white;
+animation: slideInNav 0.5s ease-out;
+}
+a{
+    color: #ffffff;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    display: inline-block;
+    text-decoration: underline;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    transition-property: font-size 0.5s ease, color 0.3s ease;
+  } 
+  .profile-photo
+  {
+    border-radius: 100px;
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+h1
+{
+    margin-left: 300px;
+    font-weight:var(--black);
+}
+p
+{
+    margin-left: 300px;
+}
+.linkedin-icon ,.twitter-icon,.github-icon,.instagram-icon
+{
+    width: 100px;
+    height: 100px;
+}
+.social-icons
+{
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+    margin-left: 301px;
+}
+.coonect
+{
+    margin-left: 400px;
+}
+body
+{
+    font-size: 20px;
+}
+nav a:hover {
+    font-size: 30px; /* Hover background color */
+    color: black; /* Hover text color */
+}
+h2{
+    text-align: center;
+}
+a:hover
+{
+    color: #000000;
+    font-size: 30px;
+}
+section {
+    border-bottom: 2px solid white; /* Black solid line */
+    padding-bottom: 20px; /* Add some padding for separation */
+    margin-bottom: 20px; /* Add margin to create space between sections */
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+h1{
+    animation: slideIn 2.1s ease-out ;
+}
+p
+{
+    animation:slideIn 5.1s ease-in-out ;
+}
+@keyframes slideInNav {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@media (max-width: 600px) {
+    img {
+        width: 100%; /* Make the image responsive, filling the width of the screen */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0; /* Reset the margin */
+    }
+
+    nav {
+        margin-left: 0; /* Reset the margin */
+    }
+
+    h1, p {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .container {
+        flex-direction: column; /* Stack projects vertically for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation links vertically for smaller screens */
+        text-align: center; /* Center-align navigation links */
+    }
+}
