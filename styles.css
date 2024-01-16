@@ -30,6 +30,7 @@ padding: 10px;
 margin-left: 200px;
 border-bottom:  2px solid white;
 animation: slideInNav 0.5s ease-out;
+    font-family: 'Moo Lah Lah', sans-serif;
 }
 a{
     color: #ffffff;
@@ -39,6 +40,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: 'Moo Lah Lah', sans-serif;
     justify-content: space-around;
   }
   nav a {
@@ -48,6 +50,7 @@ nav ul {
     font-weight: bold;
     font-size: 20px;
     transition-property: font-size 0.5s ease, color 0.3s ease;
+      font-family: 'Moo Lah Lah', sans-serif;
   } 
   .profile-photo
   {
@@ -61,6 +64,7 @@ h1
 {
     margin-left: 300px;
     font-weight:var(--black);
+    font-family: 'Moo Lah Lah', sans-serif;
 }
 p
 {
@@ -79,6 +83,7 @@ p
 footer
 {
     margin-left: 301px;
+    font-family: 'Moo Lah Lah', sans-serif;
 }
 .coonect
 {
@@ -94,6 +99,7 @@ nav a:hover {
 }
 h2{
     text-align: center;
+    font-family: 'Moo Lah Lah', sans-serif;
 }
 a:hover
 {
