@@ -30,7 +30,7 @@ padding: 10px;
 margin-left: 200px;
 border-bottom:  2px solid white;
 animation: slideInNav 0.5s ease-out;
-    font-family: 'Moo Lah Lah', sans-serif;
+font-family: 'Moo Lah Lah', sans-serif;
 }
 a{
     color: #ffffff;
@@ -40,8 +40,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    font-family: 'Moo Lah Lah', sans-serif;
     justify-content: space-around;
+    font-family: 'Moo Lah Lah', sans-serif;
   }
   nav a {
     display: inline-block;
@@ -50,7 +50,7 @@ nav ul {
     font-weight: bold;
     font-size: 20px;
     transition-property: font-size 0.5s ease, color 0.3s ease;
-      font-family: 'Moo Lah Lah', sans-serif;
+    font-family: 'Moo Lah Lah', sans-serif;
   } 
   .profile-photo
   {
@@ -93,21 +93,20 @@ body
 {
     font-size: 20px;
 }
-nav a:hover {
-    font-size: 30px; /* Hover background color */
-    color: black; /* Hover text color */
-}
+/*nav a:hover {
+    font-size: 30px; 
+    color: black; 
+}*/
 h2{
     text-align: center;
     font-family: 'Moo Lah Lah', sans-serif;
 }
-a:hover
+/*a:hover
 {
     color: #000000;
     font-size: 30px;
     cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 512 512' style='enable-background:new 0 0 512.011 512.011;' xml:space='preserve'%3E %3Cpath fill='DeepSkyBlue' d='M434.215,344.467L92.881,3.134c-4.16-4.171-10.914-4.179-15.085-0.019  c-2.011,2.006-3.139,4.731-3.134,7.571v490.667c0.003,4.382,2.685,8.316,6.763,9.92c4.081,1.603,8.727,0.545,11.712-2.667  l135.509-145.92h198.016c5.891,0.011,10.675-4.757,10.686-10.648C437.353,349.198,436.226,346.473,434.215,344.467z'/%3E %3C/svg%3E"), pointer;
-  
-}
+}*/
 section {
     border-bottom: 2px solid white; /* Black solid line */
     padding-bottom: 20px; /* Add some padding for separation */
@@ -142,9 +141,13 @@ p
 }
 @media (max-width: 600px) {
     img {
-        width: 100%; /* Make the image responsive, filling the width of the screen */
+        width: 90%; /* Make the image responsive, filling the width of the screen */
         height: auto; /* Maintain aspect ratio */
-        margin-left: 0; /* Reset the margin */
+        margin : auto 5px ; /* Reset the margin */
+    }
+    #contact img
+    {
+        margin: 0;
     }
 
     nav {
@@ -163,7 +166,30 @@ p
         flex-direction: column; /* Stack navigation links vertically for smaller screens */
         text-align: center; /* Center-align navigation links */
     }
+    #footer p 
+    {
+        margin-right:25px ;
+    }
 }
 html{
     cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 512 512' style='enable-background:new 0 0 512.011 512.011;' xml:space='preserve'%3E %3Cpath fill='DeepSkyBlue' d='M434.215,344.467L92.881,3.134c-4.16-4.171-10.914-4.179-15.085-0.019  c-2.011,2.006-3.139,4.731-3.134,7.571v490.667c0.003,4.382,2.685,8.316,6.763,9.92c4.081,1.603,8.727,0.545,11.712-2.667  l135.509-145.92h198.016c5.891,0.011,10.675-4.757,10.686-10.648C437.353,349.198,436.226,346.473,434.215,344.467z'/%3E %3C/svg%3E"), pointer;
+  }
+  .mails {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: black;
+    background-color: #3498db;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .mails:hover {
+    background-color: #ffffff;
+    color: #3498db;
   }
