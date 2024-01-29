@@ -187,9 +187,23 @@ html{
     color: black;
     background-color: #3498db;
     transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 40px;
   }
   
   .mails:hover {
     background-color: #ffffff;
     color: #3498db;
+  }
+  .edu
+  {
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+  }
+  .personal-inf
+  {
+    margin-left: 50px;
+    margin-top: 50px;
   }
